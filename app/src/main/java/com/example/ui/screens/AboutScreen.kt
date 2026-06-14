@@ -73,18 +73,10 @@ fun AboutScreen(onBackClick: () -> Unit) {
             InfoCard(
                 title = "Creator",
                 value = "Sikandar Ali",
-                subtitle = "Sike Ali"
+                subtitle = "(Sike Ali)"
             )
 
             Spacer(modifier = Modifier.height(16.dp))
-
-            InfoCard(
-                title = "Deployment",
-                value = "Vercel & Vite Ready",
-                subtitle = "PWA + Native APK Support"
-            )
-
-            Spacer(modifier = Modifier.height(24.dp))
 
             Text(
                 text = "A high-performance native music player built with Jetpack Compose, designed for music lovers who appreciate clean UI and seamless performance.",

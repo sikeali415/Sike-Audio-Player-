@@ -15,6 +15,5 @@ data class Song(
     val playCount: Int = 0,
     val isFavorite: Boolean = false,
     val fileName: String = "", // Used to identify the local file/asset
-    val lastPlayedTimestamp: Long = 0,
-    val isOffline: Boolean = true // Songs are stored locally by default
+    val lastPlayedTimestamp: Long = 0
 )

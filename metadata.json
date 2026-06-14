@@ -1,0 +1,6 @@
+{
+  "name": "Sike Audio Player",
+  "description": "A high-performance native music player created by Sikandar Ali (Sike Ali), featuring artist tracking and play-time statistics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
